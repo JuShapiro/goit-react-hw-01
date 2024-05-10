@@ -1,0 +1,51 @@
+.user-card {
+  width: 480px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  border-radius: 8px;
+  border: 1px solid grey;
+}
+
+.user-profile {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-photo {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.user-name {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.user-info {
+  font-size: 18px;
+  color: darkgray;
+}
+
+.user-card-list {
+  display: flex;
+}
+
+.user-card-list-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid grey;
+}
+
+.user-rating {
+  font-size: 16px;
+}
+
+.user-stats {
+  font-size: 10px;
+}
