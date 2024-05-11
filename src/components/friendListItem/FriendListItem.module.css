@@ -1,0 +1,15 @@
+.userAvatar {
+  margin-top: 20px;
+  height: auto;
+}
+
+.userName {
+  font-size: 18px;
+}
+.isOnline {
+  color: green;
+}
+
+.isOffline {
+  color: red;
+}
