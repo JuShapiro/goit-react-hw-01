@@ -1,51 +1,56 @@
-.user-card {
+.userCard {
   width: 320px;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
+  margin: 30px;
+  padding: 0 10px;
   border-radius: 8px;
   border: 1px solid grey;
 }
 
-.user-profile {
+.userProfile {
+  margin: 0;
   display: flex;
   flex-direction: column;
-  gap: 5px;
   justify-content: center;
   align-items: center;
 }
 
-.user-photo {
-  width: 150px;
+.userPhoto {
+  margin-top: 25px;
+  width: 170px;
   border-radius: 50%;
+  border: 1px solid grey;
 }
 
-.user-name {
+.userName {
   font-size: 24px;
   font-weight: 600;
 }
 
-.user-info {
+.userInfo {
   font-size: 18px;
   color: darkgray;
 }
 
-.user-card-list {
+.userCardList {
   display: flex;
+  padding: 0 15px;
 }
 
-.user-card-list-item {
+.userCardListItem {
+  width: 100%;
   display: flex;
   flex-direction: column;
+  gap: 8px;
   justify-content: center;
   align-items: center;
   border-top: 1px solid grey;
 }
 
-.user-rating {
+.userRating {
+  margin-top: 18px;
   font-size: 16px;
 }
 
-.user-stats {
-  font-size: 10px;
+.userStats {
+  font-size: 12px;
 }

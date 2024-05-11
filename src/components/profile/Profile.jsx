@@ -3,26 +3,26 @@ console.log(css);
 
 const Profile = ({ name, tag, location, image, stats }) => {
   return (
-    <div className={css["user-card"]}>
-      <div className={css["user-profile"]}>
-        <img className={css["user-photo"]} src={image} alt="User avatar" />
-        <p className={css["user-name"]}>{name}</p>
-        <p className={css["user-info"]}>@{tag}</p>
-        <p className={css["user-info"]}>{location}</p>
+    <div className={css.userCard}>
+      <div className={css["userProfile"]}>
+        <img className={css["userPhoto"]} src={image} alt="User avatar" />
+        <p className={css["userName"]}>{name}</p>
+        <p className={css["userInfo"]}>@{tag}</p>
+        <p className={css["userInfo"]}>{location}</p>
       </div>
 
-      <ul className={css["user-card-list"]}>
-        <li className={css["user-card-list-item"]}>
-          <span className={css["user-rating"]}>Followers</span>
-          <span className={css["user-stats"]}>{stats.followers}</span>
+      <ul className={css["userCardList"]}>
+        <li className={css["userCardListItem"]}>
+          <span className={css["userRating"]}>Followers</span>
+          <span className={css["userStats"]}>{stats.followers}</span>
         </li>
-        <li className={css["user-card-list-item"]}>
-          <span className={css["user-rating"]}>Views</span>
-          <span className={css["user-stats"]}>{stats.views}</span>
+        <li className={css["userCardListItem"]}>
+          <span className={css["userRating"]}>Views</span>
+          <span className={css["userStats"]}>{stats.views}</span>
         </li>
-        <li className={css["user-card-list-item"]}>
-          <span className={css["user-rating"]}>Likes</span>
-          <span className={css["user-stats"]}>{stats.likes}</span>
+        <li className={css["userCardListItem"]}>
+          <span className={css["userRating"]}>Likes</span>
+          <span className={css["userStats"]}>{stats.likes}</span>
         </li>
       </ul>
     </div>
